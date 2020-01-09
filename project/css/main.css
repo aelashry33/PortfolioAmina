@@ -4,6 +4,7 @@ body {
   text-align: center;
   color: #343a40;
   font-size: 22px;
+  padding-bottom: 5px;
 }
 
 h1 {
@@ -11,6 +12,19 @@ h1 {
   font-weight: 700;
   margin-top: 40px;
   font-size: 48px;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding-left: 80px;
+}
+
+i {
+  padding-left: 10px;
+  float: left;
+  color: black;
 }
 
 p {
@@ -22,13 +36,19 @@ button {
 }
 
 .page-header {
-  background-color: #00bda5;
-  padding-top: 40px;
-  padding-bottom: 80px;
-  color: #ffffff;
+  background-color: #FAEBD7;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: rgba(0, 0, 0, 0.31);
 }
 
 #image img {
   height: 200px;
   margin-top: 60px;
+}
+
+a {
+  background-color: #FAEBD7;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(52, 58, 64, 0.81);
 }
