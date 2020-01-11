@@ -7,6 +7,12 @@ body {
   padding-bottom: 5px;
 }
 
+img {
+  border-style: inset;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -41,6 +47,36 @@ button {
   padding-bottom: 25px;
   color: rgba(0, 0, 0, 0.31);
 }
+h2 {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 10px;
+}
+
+form {
+  background-color: #f5f5dc;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 10px;
+  padding-right: 500px;
+  padding-left: 10px;
+  border-radius: 10px;
+  float: right;
+}
+
+
+
+input {
+  border: 4px #63631c;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.contact-icons {
+  float: left;
+}
+
 
 #image img {
   height: 200px;
@@ -48,7 +84,7 @@ button {
 }
 
 a {
-  background-color: #FAEBD7;
+  background-color: #f5f5dc;
   font-family: 'Poppins', sans-serif;
   color: rgba(52, 58, 64, 0.81);
 }

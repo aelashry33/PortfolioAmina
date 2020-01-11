@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\project",
+    "\\project\\html",
+    "\\project\\html\\pages"
   ],
   "PreviewInSolutionExplorer": false
 }
