@@ -1,10 +1,10 @@
 
 body {
-  font-family: Arial, serif;
+  font-family: "Segoe UI Light";
   text-align: center;
-  color: #343a40;
+  color: black;
   font-size: 22px;
-  padding-bottom: 5px;
+
 }
 
 img {
@@ -14,67 +14,82 @@ img {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Major Mono Display', monospace;
   font-weight: 700;
   margin-top: 40px;
   font-size: 48px;
+  color: #efdcc3;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding-left: 12px;
+}
+
+.navbar {
+  float: left;
 }
 
 h4 {
   text-align: left;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Segoe UI Light";
   font-size: 20px;
   padding-left: 80px;
 }
 
-i {
-  padding-left: 10px;
-  float: left;
-  color: black;
+
+
+.intro {
+  font-family: 'Major Mono Display', monospace;
+  padding-left: 12px;
+  color: #696969;
 }
 
-p {
-  margin-top: 80px;
-}
-
-button {
-  margin-top: 40px;
+p{
+  color: #696969;
+  padding-left: 240px;
+  padding-right: 200px;
+  font-family: "Segoe UI Light";
 }
 
 .page-header {
-  background-color: #FAEBD7;
   padding-top: 25px;
   padding-bottom: 25px;
   color: rgba(0, 0, 0, 0.31);
 }
+
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Segoe UI Light";
   padding-top: 10px;
+  padding-bottom: 10px;
 }
+button {
+  text-align: center;
 
+}
+.border-secondary {
+  border-width: 15px !important;
+  border-color: #efdcc3 !important;
+  border-radius: 10px !important;
+}
+.contactInfo{
+  position: fixed;
+  float: bottom;
+  bottom: 0px;
+  padding-left: 380px;
+  font-family: "Segoe UI Light";
+}
 form {
-  background-color: #f5f5dc;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Segoe UI Light";
   font-size: 15px;
-  text-align: left;
-  margin-left: 30px;
-  margin-right: 10px;
-  padding-right: 500px;
-  padding-left: 10px;
+
+  padding-right: 20px;
   border-radius: 10px;
-  float: right;
+
 }
-
-
 
 input {
-  border: 4px #63631c;
+  border: 1px solid black;
   padding: 5px 15px;
   border-radius: 5px;
-}
-
-.contact-icons {
-  float: left;
 }
 
 
@@ -84,7 +99,7 @@ input {
 }
 
 a {
-  background-color: #f5f5dc;
-  font-family: 'Poppins', sans-serif;
+
+  font-family: "Segoe UI Light";
   color: rgba(52, 58, 64, 0.81);
 }

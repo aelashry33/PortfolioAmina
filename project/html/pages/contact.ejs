@@ -3,36 +3,37 @@
     <% include ../helpers/head %>
 </head>
 
-
+<body class="border border-secondary">
 <!-- the classes 'page-header' and 'btn btn-dark' create bootstrap components.  -->
 <!-- Check out more components here: http://getbootstrap.com/components/ -->
 <div class="page-header">
 
-    <h1>Contact Me</h1>
-    <% include ../helpers/navBar %>
-</div>
+    <h1 align="left">contactMe()</h1>
 
-<h2 style="text-align: right"> Questions or Concerns? Fill the form below! </h2>
-<form action="mailto:aminaelashry2@gmail.com" enctype="multipart/form-data" method="POST" name="messages">
-    First Name: <br>
-    <input type="text" name="firstname"><br>
-    Last Name: <br>
-    <input type="text" name="lastname"><br>
-    Email: <br>
-    <input type="text" name="email"><br>
-    Message: <br>
-    <textarea name="message" cols="50" rows="20"></textarea><br><br>
-    <input type="submit" value="SUBMIT" >
+</div>
+<% include ../helpers/navBar %>
+
+<h2 align="center"> Questions? Opportunities? Fill out the form below! </h2>
+
+<form class="form-horizontal" action="/formActionPage.php">
+    <label class="control-label" for="name">Name: </label>
+    <input type="text" id="name" placeholder="Enter first and last name" name="yourname">
+    <label class="control-label" for="email">Email: </label>
+    <input type="email" id="email" placeholder="Enter email" name="email">
+    <label class="control-label" for="subject">Subject:</label>
+    <input type="text" id="subject" placeholder="Enter subject of your email" name="email"><br><br>
+    Message:
+    <textarea name="subject" cols="100" rows="20"></textarea>
+    <button type="submit">Submit</button>
 </form>
 
-    <i class="fas fa-envelope" ></i> <h4> aminaelashry2@gmail.com </h4><br>
-    <i class="fas fa-phone" ></i> <h4>(443)-883-9087 </h4><br>
-    <i class="fab fa-github" ></i>  <h4>GitHub: @aelashry33 </h4><br>
-    <i class="fab fa-linkedin" ><a href="http://www.linkedin.com/in/amina-el-ashry"></i><h4>LinkedIn </a></h4><br>
+<p class="contactInfo">
+    <i class="fas fa-envelope" ></i> aminaelashry2@gmail.com |
+    <i class="fas fa-phone" ></i> 443-883-9087 |
+    <a href="https://github.com/aelashry33"><i class="fab fa-github" ></i></a> |
+    <a href="http://www.linkedin.com/in/amina-el-ashry"><i class="fab fa-linkedin" ></i></a>
+</p>
+    </body>
 
-
-
-
-</body>
 
 </html>
