@@ -14,13 +14,12 @@ img {
 }
 
 h1 {
-  font-family: 'Major Mono Display', monospace;
-  font-weight: 700;
-  margin-top: 40px;
-  font-size: 48px;
-  color: #efdcc3;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  font-family: "Montserrat Light", monospace;
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 80px;
+  color: #696969;
+
   padding-left: 12px;
 }
 
@@ -38,11 +37,15 @@ h4 {
 
 
 .intro {
-  font-family: 'Major Mono Display', monospace;
+  font-family: "Montserrat Light", monospace;
   padding-left: 12px;
   color: #696969;
 }
-
+.endintro {
+  font-family: "Segoe UI Light";
+  padding-right: 12px;
+  color: #696969;
+}
 p{
   color: #696969;
   padding-left: 240px;
