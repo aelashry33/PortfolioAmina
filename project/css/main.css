@@ -14,12 +14,12 @@ img {
 }
 
 h1 {
-  font-family: "Montserrat Light", monospace;
+  font-family: "Segoe UI Light";
+  text-transform: uppercase;
   font-weight: 200;
   margin-top: 20px;
   font-size: 80px;
-  color: #696969;
-
+  color: #b62f2f;
   padding-left: 12px;
 }
 
@@ -34,18 +34,30 @@ h4 {
   padding-left: 80px;
 }
 
+i {
+  color: #4d7e80;
+}
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.nav-link:hover {
+  color: #e9967a;
+}
 
 .intro {
   font-family: "Montserrat Light", monospace;
   padding-left: 12px;
-  color: #696969;
+  font-size: 19px;
+  color: #4d7e80;
 }
-.endintro {
-  font-family: "Segoe UI Light";
-  padding-right: 12px;
-  color: #696969;
-}
+
 p{
   color: #696969;
   padding-left: 240px;
@@ -65,13 +77,11 @@ h2 {
   padding-bottom: 10px;
 }
 button {
-  text-align: center;
+  text-align: left;
 
 }
-.border-secondary {
-  border-width: 15px !important;
-  border-color: #efdcc3 !important;
-  border-radius: 10px !important;
+button:hover {
+  color: #e9967a;
 }
 .contactInfo{
   position: fixed;
@@ -79,16 +89,20 @@ button {
   bottom: 0px;
   padding-left: 380px;
   font-family: "Segoe UI Light";
+  color: #4d7e80;
 }
-form {
+
+.form-group {
   font-family: "Segoe UI Light";
   font-size: 15px;
-
-  padding-right: 20px;
+  padding-right: 300px;
+  padding-left: 400px;
   border-radius: 10px;
 
 }
-
+label {
+  text-align: left;
+}
 input {
   border: 1px solid black;
   padding: 5px 15px;
