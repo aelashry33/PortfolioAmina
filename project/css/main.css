@@ -2,13 +2,24 @@
 body {
   font-family: "Segoe UI Light";
   text-align: center;
-  color: black;
-  font-size: 22px;
 
+  font-size: 22px;
+  position: relative;
+  background-image: url("https://img.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg?size=626&ext=jpg");
+  <!--height: 100%;-->
+
+  background-position: center;
+  backdrop-filter: blur(3px);
 }
 
-img {
-  border-style: inset;
+
+.container {
+  position: relative;
+}
+
+
+.amina {
+  float: right;
   padding-left: 20px;
   padding-top: 30px;
 }
@@ -16,34 +27,45 @@ img {
 h1 {
   font-family: "Segoe UI Light";
   text-transform: uppercase;
-  font-weight: 200;
-  margin-top: 20px;
+  font-weight: 900;
   font-size: 80px;
-  color: #b62f2f;
+  color: white;
+  background-color: #4d7e80;
   padding-left: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-right: 50px;
+  margin-top: 20px;
 }
 
 .navbar {
   float: left;
+  background-color: #B0C4DE;
+  margin-top: -30px;
+  margin-left: 10px;
+  padding-bottom: 50px;
 }
 
-h4 {
-  text-align: left;
-  font-family: "Segoe UI Light";
-  font-size: 20px;
-  padding-left: 80px;
+li {
+  color: white;
+  font-size: 30px;
+
 }
 
 i {
-  color: #4d7e80;
+  color: white;
 }
 
 hr {
   display: block;
-  height: 1px;
+  height: .5px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
+  margin-top: .5em;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
   padding: 0;
 }
 
@@ -51,25 +73,29 @@ hr {
   color: #e9967a;
 }
 
+.nav-link{
+  color: white;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
 .intro {
   font-family: "Montserrat Light", monospace;
   padding-left: 12px;
   font-size: 19px;
-  color: #4d7e80;
+  color: white;
+  background-color: #B0C4DE;
 }
 
 p{
-  color: #696969;
+  color: black;
   padding-left: 240px;
   padding-right: 200px;
   font-family: "Segoe UI Light";
+
 }
 
-.page-header {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  color: rgba(0, 0, 0, 0.31);
-}
+
 
 h2 {
   font-family: "Segoe UI Light";
@@ -87,9 +113,13 @@ button:hover {
   position: fixed;
   float: bottom;
   bottom: 0px;
-  padding-left: 380px;
+  text-align: left;
   font-family: "Segoe UI Light";
-  color: #4d7e80;
+  color: white;
+  background-color: #4d7e80;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 300px;
 }
 
 .form-group {
@@ -114,6 +144,7 @@ input {
   height: 200px;
   margin-top: 60px;
 }
+
 
 a {
 
