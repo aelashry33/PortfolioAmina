@@ -9,7 +9,7 @@ body {
   <!--height: 100%;-->
 
   background-position: center;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(7px);
 }
 
 
@@ -53,6 +53,9 @@ h3 {
 }
 .introname {
   text-align: center;
+
+  margin-right: 50px;
+
 }
 
 
@@ -164,6 +167,60 @@ button:hover {
   padding-top: 7px;
   border-bottom-color: #4d7e80;
   border-bottom-style: solid;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #4d7e80;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container_left {
+  margin-left: 120px;
+  color: black;
+  font-family: "Segoe UI Light";
+}
+
+.kumonlabel, .sofiaclabel, .ciscolabel, .cyberpatriotlabel {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container_right {
+  margin-left: 350px;
+  color: black;
+  font-family: "Segoe UI Light";
+}
+
+.kumon, .cisco{
+  font-size: 15px;
+  margin-left: 250px;
+  margin-right: 100px;
+  word-wrap: break-word;
+}
+
+.sofiac, .cyberpatriot {
+  font-size: 15px;
+
+  margin-right: 600px;
+
+  word-wrap: break-word;
+}
+.sofiac_description {
+  margin-right: 190px;
+  padding-left: 5px;
+  font-size: 15px;
 }
 
 .form-group {
