@@ -4,30 +4,28 @@ body {
   text-align: center;
   font-size: 22px;
   position: relative;
-  background-image: url("https://img.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg?size=626&ext=jpg");
-  background-position: center;
-  backdrop-filter: blur(8px);
+
 }
 
 .v1_home{
-  border-left: 100px solid #99d1d1;
-  height: 2125px;
+  border-left: 155px solid #99d1d1;
+  height: 2271px;
   margin-top: 35px;
   margin-left: 40px;
   float: left;
 }
 
 .v1_project{
-  border-left: 100px solid #99d1d1;
-  height: 535px;
+  border-left: 155px solid #99d1d1;
+  height: 554px;
   margin-top: 35px;
   margin-left: 40px;
   float: left;
 }
 
 .v1_contact {
-  border-left: 100px solid #99d1d1;
-  height: 950px;
+  border-left: 155px solid #99d1d1;
+  height: 980px;
   margin-top: 35px;
   margin-left: 40px;
   float: left;
@@ -36,23 +34,20 @@ body {
   position: relative;
 }
 
-
 .amina {
   float: left;
   border-radius: 20%;
   padding-left: 20px;
   padding-top: 30px;
-
 }
 
 h1 {
-
   font-family: "Segoe UI Light";
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 60px;
+  font-size: 50px;
   color: white;
-  background-color: #4d7e80;
+  background-color: #778899;
   padding-left: 12px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -63,20 +58,20 @@ h1 {
 
 h3 {
   text-transform: uppercase;
-  color: #4d7e80;
+  color: #778899;
   margin-left: 300px;
   margin-right: 300px;
   border-radius: 3px;
   padding-bottom: 7px;
   padding-top: 7px;
-  border-bottom-color: #4d7e80;
+  border-bottom-color: #778899;
   border-bottom-style: solid;
 }
-.introname {
+
+.intronametop {
   text-align: center;
-
+  font-weight: bold;
   margin-right: 50px;
-
 }
 
 
@@ -85,18 +80,18 @@ h3 {
   background-color: #005675;
   border-radius: 5px;
   margin-top: -30px;
-
+  margin-left: -50px;
 
 }
 
 li {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 
 }
 
 i {
-  color: #4d7e80;
+  color: #778899;
 }
 
 hr {
@@ -139,7 +134,12 @@ p{
 
 h2 {
   font-family: "Segoe UI Light";
-  padding-top: 10px;
+  padding-top: 50px;
+  font-size: 35px;
+}
+
+.powr-contact-form {
+  padding-left: 100px;
   padding-bottom: 10px;
 }
 button {
@@ -156,15 +156,15 @@ button:hover {
   bottom: 0px;
   text-align: left;
   font-family: "Segoe UI Light";
-  color: #4d7e80;
+  color: #778899;
 
-  padding-left: 20px;
+  padding-left: 80px;
   margin-right: 300px;
-  color: #4d7e80;
+  color: #778899;
   border-radius: 3px;
   padding-bottom: 7px;
   padding-top: 7px;
-  border-bottom-color: #4d7e80;
+  border-bottom-color: #778899;
   border-bottom-style: solid;
 }
 
@@ -173,15 +173,15 @@ button:hover {
   bottom: 0px;
   text-align: left;
   font-family: "Segoe UI Light";
-  color: #4d7e80;
+  color: #778899;
   position: fixed;
-  padding-left: 20px;
+  padding-left: 80px;
   margin-right: 200px;
-  color: #4d7e80;
+  color: #778899;
   border-radius: 3px;
   padding-bottom: 7px;
   padding-top: 7px;
-  border-bottom-color: #4d7e80;
+  border-bottom-color: #778899;
   border-bottom-style: solid;
 }
 
@@ -195,7 +195,7 @@ button:hover {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #4d7e80;
+  background-color: #778899;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -215,24 +215,27 @@ button:hover {
 
 .container_right {
   margin-left: 350px;
+  margin-right: 100px;
   color: black;
   font-family: "Segoe UI Light";
 }
 
-.kumon, .cisco{
+.cisco{
   font-size: 15px;
   margin-left: 250px;
   margin-right: 100px;
+  text-align: left;
   word-wrap: break-word;
 }
 
 .sofiac, .cyberpatriot {
   font-size: 15px;
-
-  margin-right: 600px;
-
+  text-align: left;
+  margin-right: 570px;
+  margin-left: 155px;
   word-wrap: break-word;
 }
+
 fas fa-code fa-2x {
   margin-right: 100px;
   float: right;
@@ -243,7 +246,7 @@ fas fa-code fa-2x {
 .form-group {
   font-family: "Segoe UI Light";
   font-size: 15px;
-  padding-right: 250px;
+  padding-right: 100px;
   padding-left: 350px;
   border-radius: 10px;
 }
@@ -252,11 +255,11 @@ label {
   text-align: left;
   font-size: 20px;
   text-transform: uppercase;
-  color: #4d7e80;
+  color: #778899;
   border-radius: 3px;
   padding-bottom: 7px;
   padding-top: 7px;
-  border-bottom-color: #4d7e80;
+  border-bottom-color: #778899;
   border-bottom-style: solid;
 }
 
@@ -266,8 +269,14 @@ input {
   border-radius: 5px;
 }
 
-#image img {
-  height: 200px;
+img {
+  display: inline-block;
+
+  width: 240px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: -70px;
 }
 
 a {

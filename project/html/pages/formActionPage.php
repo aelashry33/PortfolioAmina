@@ -8,9 +8,9 @@ if($_POST['submit']) {
     $senderEmail=$_POST['email'];
     $message=$_POST['message'];
 
-    $mailBody="Name: $name\nEmail: $senderEmail\n\n$message";
+    $mailBody="Name: $name\nEmail: $senderEmail \n Subject:$subject\n\n$message";
 
-    mail($recipient, $subject, $mailBody);
+    mail($recipient, $subject, $mailBody, $senderEmail);
 
     $thankYou="<message>Thank you! Your message has been sent. I will reply in two to three business days!</message>";
 }
