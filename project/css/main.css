@@ -2,17 +2,36 @@
 body {
   font-family: "Segoe UI Light";
   text-align: center;
-
   font-size: 22px;
   position: relative;
   background-image: url("https://img.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg?size=626&ext=jpg");
-  <!--height: 100%;-->
-
   background-position: center;
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(8px);
 }
 
+.v1_home{
+  border-left: 100px solid #99d1d1;
+  height: 2125px;
+  margin-top: 35px;
+  margin-left: 40px;
+  float: left;
+}
 
+.v1_project{
+  border-left: 100px solid #99d1d1;
+  height: 535px;
+  margin-top: 35px;
+  margin-left: 40px;
+  float: left;
+}
+
+.v1_contact {
+  border-left: 100px solid #99d1d1;
+  height: 950px;
+  margin-top: 35px;
+  margin-left: 40px;
+  float: left;
+}
 .container {
   position: relative;
 }
@@ -23,9 +42,11 @@ body {
   border-radius: 20%;
   padding-left: 20px;
   padding-top: 30px;
+
 }
 
 h1 {
+
   font-family: "Segoe UI Light";
   text-transform: uppercase;
   font-weight: 900;
@@ -59,17 +80,12 @@ h3 {
 }
 
 
-.btn btn-outline-info btn-lg {
-
-  color: #B0C4DE;
-  border-color: #B0C4DE;
-}
 .navbar {
   float: left;
-  background-color: #B0C4DE;
+  background-color: #005675;
   border-radius: 5px;
   margin-top: -30px;
-  margin-left: 10px;
+
 
 }
 
@@ -187,7 +203,7 @@ button:hover {
 }
 
 .container_left {
-  margin-left: 120px;
+  margin-left: 100px;
   color: black;
   font-family: "Segoe UI Light";
 }
@@ -217,11 +233,12 @@ button:hover {
 
   word-wrap: break-word;
 }
-.sofiac_description {
-  margin-right: 190px;
-  padding-left: 5px;
-  font-size: 15px;
+fas fa-code fa-2x {
+  margin-right: 100px;
+  float: right;
+
 }
+
 
 .form-group {
   font-family: "Segoe UI Light";
