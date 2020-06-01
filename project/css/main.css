@@ -7,19 +7,21 @@ body {
 
 }
 
+
+
 .v1_home{
-  border-left: 155px solid #99d1d1;
-  height: 2271px;
-  margin-top: 35px;
-  margin-left: 40px;
+  border-left: 7em solid #99d1d1;
+  height: 100%;
+  margin-top: 2em;
+  margin-left: 2em;
   float: left;
 }
 
 .v1_project{
-  border-left: 155px solid #99d1d1;
-  height: 554px;
-  margin-top: 35px;
-  margin-left: 40px;
+  border-left: 7em solid #99d1d1;
+  height: 100%;
+  margin-top: 2em;
+  margin-left:2em;
   float: left;
 }
 
@@ -59,19 +61,22 @@ h1 {
 h3 {
   text-transform: uppercase;
   color: #778899;
-  margin-left: 300px;
-  margin-right: 300px;
-  border-radius: 3px;
-  padding-bottom: 7px;
-  padding-top: 7px;
+  margin-left: 8em;
+  margin-right: 7em;
+  border-radius: .1em;
+  padding-bottom: .1em;
+  padding-top: .2em;
   border-bottom-color: #778899;
   border-bottom-style: solid;
+
 }
 
 .intronametop {
   text-align: center;
   font-weight: bold;
   margin-right: 50px;
+  color: darksalmon;
+
 }
 
 
@@ -91,7 +96,7 @@ li {
 }
 
 i {
-  color: #778899;
+  color: darksalmon ;
 }
 
 hr {
@@ -145,7 +150,9 @@ h2 {
 button {
   text-align: right;
 }
-
+.btn btn-outline-info btn-lg {
+  border-color: darksalmon;
+}
 button:hover {
   color: #e9967a;
 }
@@ -189,13 +196,14 @@ button:hover {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: .3em;
 }
 
 .timeline::after {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #778899;
+  background-color: darksalmon;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -203,19 +211,24 @@ button:hover {
 }
 
 .container_left {
-  margin-left: 100px;
+  margin-left: 4em;
   color: black;
   font-family: "Segoe UI Light";
-}
 
+
+}
+.timelinelabel{
+  text-decoration: underline;
+}
 .kumonlabel, .sofiaclabel, .ciscolabel, .cyberpatriotlabel {
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .container_right {
-  margin-left: 350px;
-  margin-right: 100px;
+  margin-left: 15em;
+
+  margin-right: 4em;
   color: black;
   font-family: "Segoe UI Light";
 }
@@ -236,12 +249,11 @@ button:hover {
   word-wrap: break-word;
 }
 
-fas fa-code fa-2x {
+.fas fa-code fa-2x {
   margin-right: 100px;
   float: right;
-
+  color: darksalmon;
 }
-
 
 .form-group {
   font-family: "Segoe UI Light";
@@ -272,8 +284,8 @@ input {
 img {
   display: inline-block;
 
-  width: 240px;
-  height: 280px;
+  width: 11em;
+  height: 18em;
   overflow: hidden;
   border-radius: 50%;
   margin-left: -70px;
