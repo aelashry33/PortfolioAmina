@@ -24,6 +24,7 @@ app.get('/projects', function (request, response) {
     response.render('pages/projects');
 });
 
+
 app.get('/contact', function (request, response) {
     response.render('pages/contact');
 });
