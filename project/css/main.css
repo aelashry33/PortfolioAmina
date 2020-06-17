@@ -1,39 +1,14 @@
 
 .typewrite {
-    padding-right: 7em;
+    padding-right: 3em;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 479px) {
+@media only screen and (min-width : 600px) and (max-width : 1000px){
+    p{
+        margin-right: -7em;
+        margin-left: -.02em;
+    }
 
-    .container_left{
-        margin-left: 1em ;
-    }
-    .container_right{
-        margin-left: 10em;
-        margin-right: 2em;
-    }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) and (max-width : 765px) {
-    .container_left{
-        margin-left: 1em ;
-    }
-    .container_right{
-        margin-left: 8em;
-        margin-right: 2em;
-    }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) and (max-width : 992px) {
-    .container_left{
-        margin-left: 1em ;
-    }
-    .container_right{
-        margin-left: 10em;
-        margin-right: 2em;
-    }
 }
 
 
@@ -56,9 +31,7 @@ body {
 }
 
 
-.container {
-    position: sticky;
-}
+
 
 h1 {
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
@@ -72,27 +45,29 @@ h1 {
     padding-top: .5em;
     padding-bottom: .5em;
     position: relative;
-    margin-right: 2em;
+    margin-right: 2.3em;
     margin-top: .2em;
 }
 
 h3 {
     text-transform: uppercase;
     color: #778899;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 3em;
+
     border-radius: .1em;
     padding-bottom: .1em;
     padding-top: .2em;
     border-bottom-color: #778899;
     border-bottom-style: solid;
-
+    text-align: left;
 }
 
 .intronametop {
-    text-align: center;
+
     font-weight: bold;
-    margin-right: 50px;
+
+    margin-left: 4.5em;
+    text-align: left;
     color: darksalmon;
 
 }
@@ -101,7 +76,7 @@ h3 {
 .navbar {
     float: left;
     background-color: #f0f5f5;
-    margin-top: -1.1em;
+    margin-top: -1.5em;
     margin-left: 1em;
 }
 
@@ -138,19 +113,13 @@ hr {
     text-transform: uppercase;
 }
 
-.intro {
-    font-family: "Montserrat Light", monospace;
-    padding-left: 12px;
-    font-size: 19px;
-    color: white;
-    background-color: #B0C4DE;
-}
+
 
 p {
     color: black;
     font-size: 20px;
-    padding-left: 13em;
-    padding-right: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
     text-align: left;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -189,12 +158,12 @@ button:hover {
     float: bottom;
     bottom: 0em;
     text-align: left;
-    padding-left: .4em;
+    padding-left: .5em;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #778899;
     margin-right: 15em;
-
+    margin-left: .2em;
     color: #778899;
     border-radius: .3em;
     padding-bottom: .2em;
@@ -257,11 +226,18 @@ button:hover {
     text-decoration: underline;
 }
 
-.kumonlabel, .sofiaclabel, .ciscolabel, .cyberpatriotlabel {
+.sofiaclabel, .cyberpatriotlabel {
     font-weight: bold;
     text-transform: uppercase;
+    margin-right: 27.2em;
+    text-align: right;
 }
-
+.ciscolabel{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 11.6em;
+    text-align: left;
+}
 .container_right {
     margin-left: 15em;
 
@@ -273,17 +249,17 @@ button:hover {
 
 .cisco {
     font-size: 15px;
-    margin-left: 250px;
-    margin-right: 100px;
+    margin-left: 17em;
+    margin-right: 3em;
     text-align: left;
     word-wrap: break-word;
 }
 
 .sofiac, .cyberpatriot {
     font-size: 15px;
-    text-align: left;
-    margin-right: 570px;
-    margin-left: 155px;
+    text-align: right;
+    margin-right: 40em;
+    margin-left: 7em;
     word-wrap: break-word;
 }
 
@@ -325,12 +301,12 @@ img {
     position: static;
     float: left;
     width: 7.35em;
-    height: 16.3em;
+    height: 11.5em;
     overflow: auto;
     border: .3em solid #f0f5f5;
-    border-bottom: 5em solid #f0f5f5;
 
-    margin-top: 12em;
+
+    margin-top: 11.7em;
     margin-left: -7.35em;
 
 }
