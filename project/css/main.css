@@ -199,10 +199,12 @@ button:hover {
 
 
 .container_left {
-    margin-left: 5em;
+    margin-left: 3em;
     margin-right: 27em;
     text-align: right;
     color: black;
+    background-color: #faffff;
+    border-radius: .3em;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -224,7 +226,8 @@ button:hover {
 
 .container_right {
     margin-left: 27em;
-    margin-right: 4em;
+    background-color: #faffff;
+    border-radius: .3em;
     color: black;
     text-align: left;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
