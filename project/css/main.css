@@ -11,6 +11,14 @@
 
 }
 
+@media only screen and (min-width : 1000px) and (max-width : 1200px){
+    p{
+        margin-right: -8em;
+        margin-left: -.02em;
+    }
+
+}
+
 
 body {
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
@@ -128,11 +136,10 @@ p {
 h2 {
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    padding-top: .7em;
-    margin-right: 4em;
+
     font-weight: bold;
-    font-size: 35px;
-    color: darksalmon;
+    font-size: 20px;
+
 }
 
 .powr-contact-form {
@@ -153,9 +160,10 @@ button:hover {
     color: #e9967a;
 }
 
-.contactInfo {
 
-    float: bottom;
+
+.contactInfo {
+    position: static;
     bottom: 0em;
     text-align: left;
     padding-left: .5em;
@@ -172,33 +180,9 @@ button:hover {
     border-bottom-style: solid;
 }
 
-.contactInfoProjects {
-
-    float: bottom;
-    bottom: 0em;
-    text-align: left;
-    padding-left: .4em;
-    font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
-    "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #778899;
-    margin-right: 15em;
-
-    color: #778899;
-    border-radius: .3em;
-    padding-bottom: .2em;
-    padding-top: .2em;
-    border-bottom-color: #778899;
-    border-bottom-style: solid;
-
-
-    position: fixed;
-
-}
-
 .timeline {
     position: relative;
 
-    margin: 0 auto;
     padding-top: .3em;
 }
 
@@ -213,13 +197,14 @@ button:hover {
     margin-left: -3px;
 }
 
+
 .container_left {
-    margin-left: 4em;
+    margin-left: 5em;
+    margin-right: 27em;
+    text-align: right;
     color: black;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
-
 }
 
 .timelinelabel {
@@ -229,38 +214,33 @@ button:hover {
 .sofiaclabel, .cyberpatriotlabel {
     font-weight: bold;
     text-transform: uppercase;
-    margin-right: 27.2em;
-    text-align: right;
+    font-size: 1.5em;
 }
 .ciscolabel{
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: 11.6em;
-    text-align: left;
+    font-size: 1.5em;
 }
-.container_right {
-    margin-left: 15em;
 
+.container_right {
+    margin-left: 27em;
     margin-right: 4em;
     color: black;
+    text-align: left;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .cisco {
     font-size: 15px;
-    margin-left: 17em;
-    margin-right: 3em;
-    text-align: left;
-    word-wrap: break-word;
+
+
+
 }
 
 .sofiac, .cyberpatriot {
     font-size: 15px;
-    text-align: right;
-    margin-right: 40em;
-    margin-left: 7em;
-    word-wrap: break-word;
+
 }
 
 .fas fa-code fa-2x {
