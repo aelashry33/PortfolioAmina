@@ -1,21 +1,9 @@
-
 .typewrite {
     padding-right: 3em;
 }
 
-@media only screen and (min-width : 500px) and (max-width : 1000px){
-    p{
-        margin-left: .1em;
-    }
-}
 
-@media only screen and (min-width : 1000px) and (max-width : 1350px){
-    p{
-        margin-left: 3em;
-    }
-}
-
-.container{
+.container {
     position: sticky;
 }
 
@@ -23,44 +11,26 @@ body {
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-align: center;
-    font-size: 22px;
-
-
 }
-
-.v1 {
-    border-left: 7.5em solid #99d1d1;
-    border-radius: .5em;
-    height: 13em;
-    margin-top: 2em;
-    margin-left: .4em;
-    float: left;
-}
-
-
-
 
 h1 {
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-transform: uppercase;
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 400;
     color: white;
     background-color: #778899;
-    padding-left: .3em;
     padding-top: .5em;
     padding-bottom: .5em;
     position: relative;
-    margin-right: 2.3em;
+    padding-left: .5em;
     margin-top: .2em;
 }
 
 h3 {
     text-transform: uppercase;
     color: #778899;
-    margin-left: 3em;
-
+    margin-left: 4.5em;
     border-radius: .1em;
     padding-bottom: .1em;
     padding-top: .2em;
@@ -69,29 +39,23 @@ h3 {
     text-align: left;
 }
 
-a:hover{
+a:hover {
     color: #778899;
 }
 
-.intronametopProjects:hover{
+.intronametopProjects:hover {
     color: #778899;
-
 }
 
 .intronametopProjects {
-
     font-weight: bold;
-
-    margin-left: 4.5em;
+    font-size: 1.3em;
     text-align: left;
     color: darksalmon;
-
 }
 
-.intronametop{
-    font-weight: bold;
-
-    margin-left: 4.5em;
+.intronametop {
+    font-weight: 500;
     text-align: left;
     color: darksalmon;
 }
@@ -99,31 +63,16 @@ a:hover{
 .navbar {
     float: left;
     background-color: #f0f5f5;
-    margin-top: -1.5em;
+    margin-top: -1.7em;
     margin-left: 1em;
 }
 
-
 li {
     color: white;
-    font-size: 25px;
-
 }
 
 i {
     color: darksalmon;
-}
-
-hr {
-    display: block;
-    height: .5px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin-top: .5em;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    padding: 0;
 }
 
 .nav-link:hover {
@@ -136,51 +85,70 @@ hr {
     text-transform: uppercase;
 }
 
-
-
 p {
-    color: black;
-    font-size: 20px;
-    padding-left: 5em;
-    padding-right: 5em;
-
+    color: 	#606060;
     text-align: left;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-h2 {
+#skills{
+    font-size: 1em;
+    padding-left: 6em;
+}
+
+.timeline {
+    position: relative;
+    margin-left: 4em;
+    padding-top: .3em;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: darksalmon;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container_left {
+    text-align: right;
+    color: #606060;
+    background-color: #F8FDFE;
+    border-radius: .3em;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
+.timelinelabel {
+    text-decoration: underline;
+}
+
+.sofiaclabel, .cyberpatriotlabel, .ciscolabel {
     font-weight: bold;
-    font-size: 20px;
+    text-transform: uppercase;
 
 }
 
-.powr-contact-form {
-    margin-bottom: 2em;
-    margin-left: 5em;
+.container_right {
+    background-color: #F8FDFE;
+    border-radius: .3em;
+    color: #606060;
+    text-align: left;
+    font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.contactInfoPro {
+    position: fixed;
 
 }
 
-button {
-    text-align: right;
-}
-
-.btn btn-outline-info btn-lg {
-    border-color: darksalmon;
-}
-
-button:hover {
-    color: #e9967a;
-}
-
-
-
-.contactInfo {
-    position: static;
-    bottom: 0em;
+.contactInfo, .contactInfoPro{
+    bottom: .5em;
     text-align: left;
     padding-left: .5em;
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
@@ -196,117 +164,22 @@ button:hover {
     border-bottom-style: solid;
 }
 
-.timeline {
-    position: relative;
+.contactInfo {
+    position: static;
 
-    padding-top: .3em;
-}
-
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: darksalmon;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-
-.container_left {
-    margin-left: 3em;
-    margin-right: 27em;
-    text-align: right;
-    color: black;
-    background-color: #faffff;
-    border-radius: .3em;
-    font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
-    "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.timelinelabel {
-    text-decoration: underline;
-}
-
-.sofiaclabel, .cyberpatriotlabel {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.5em;
-}
-.ciscolabel{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.5em;
-}
-
-.container_right {
-    margin-left: 27em;
-    background-color: #faffff;
-    border-radius: .3em;
-    color: black;
-    text-align: left;
-    font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
-    "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.cisco {
-    font-size: 15px;
-
-
-
-}
-
-.sofiac, .cyberpatriot {
-    font-size: 15px;
-
-}
-
-.fas fa-code fa-2x {
-    margin-right: 100px;
-    float: right;
-    color: darksalmon;
-}
-
-.form-group {
-    font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
-    "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 15px;
-    padding-right: 100px;
-    padding-left: 350px;
-    border-radius: 10px;
-}
-
-label {
-    text-align: left;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #778899;
-    border-radius: 3px;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    border-bottom-color: #778899;
-    border-bottom-style: solid;
-}
-
-input {
-    border: 1px solid black;
-    padding: 5px 15px;
-    border-radius: 5px;
 }
 
 img {
     display: flex;
     position: static;
     float: left;
-    width: 7.35em;
-    height: 11.5em;
     overflow: auto;
     border: .3em solid #f0f5f5;
+}
 
-
-    margin-top: 11.7em;
-    margin-left: -7.35em;
+.powr-contact-form {
+    margin-bottom: 2em;
+    margin-left: 5em;
 
 }
 
@@ -314,4 +187,121 @@ a {
     font-family: "Segoe UI Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: rgba(52, 58, 64, 0.81);
+}
+
+
+
+@media only screen and (min-width : 1000px){
+    body{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    .intronametopProjects {
+        margin-left: 5em;
+    }
+
+    .intronametop {
+        margin-left: 3.8em;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    #laptop{
+        margin-left: 4.8em;
+    }
+    li{
+        font-size: 1.4em;
+    }
+
+    p{
+        font-size: 1em;
+        padding-left: 5em;
+    }
+
+    .container_left{
+        margin-left: 1.5em;
+        margin-right: 27em;
+    }
+
+    .container_right{
+        margin-left: 27em;
+    }
+
+    .sofiaclabel, .cyberpatriotlabel, .ciscolabel{
+        font-size: 1.3em;
+    }
+
+    .sofiac, .cyberpatriot, .cisco{
+        font-size: .85em;
+    }
+
+    img {
+        width: 9em;
+        height: 13.75em;
+        margin-top: 13em;
+        margin-left: -9em;
+    }
+
+
+}
+
+@media only screen and (min-width : 300px) and (max-width : 1000px) {
+
+    body {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .intronametopProjects {
+        margin-left: 5em;
+    }
+
+    .intronametop {
+        font-size: 1.5em;
+        margin-left: 4em;
+    }
+
+    li {
+        font-size: 1.7em;
+    }
+
+
+    p{
+        font-size: 1.5em;
+        padding-left: 4em;
+    }
+
+
+    .container_left {
+        margin-left: 1.5em;
+        margin-right: 15em;
+    }
+
+    .sofiaclabel, .cyberpatriotlabel, .ciscolabel{
+        font-size: 1.5em;
+    }
+
+    .container_right {
+        margin-left: 15em;
+    }
+
+
+    .sofiac, .cyberpatriot, .cisco{
+        font-size: .7em;
+    }
+
+    img {
+        width: 10.5em;
+        height: 16.5em;
+        margin-top: 14em;
+        margin-left: -10.55em;
+    }
+
 }
