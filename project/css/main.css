@@ -36,6 +36,10 @@ h3 {
     text-align: left;
 }
 
+#cssi_redirection{
+    color: darksalmon;
+}
+
 a:hover {
     color: #778899;
 }
@@ -157,7 +161,7 @@ p {
     color: #778899;
     margin-right: 15em;
     margin-left: .2em;
-    color: #778899;
+    
     border-radius: .3em;
     padding-bottom: .2em;
     padding-top: .2em;
@@ -167,15 +171,20 @@ p {
 
 .contactInfo {
     position: static;
-
 }
 
-img {
+
+
+.amina_img {
     display: flex;
     position: static;
     float: left;
-    overflow: auto;
     border: .3em solid #f0f5f5;
+    overflow: auto;
+}
+
+.cssi_image{
+    float: center;
 }
 
 .powr-contact-form {
@@ -240,14 +249,20 @@ a {
         font-size: .85em;
     }
 
-    img {
+    .amina_img {
         width: 9em;
         height: 12.5em;
         margin-top: 13em;
         margin-left: -9em;
     }
 
+    .cssi_image{
+        width: 22em;
+        height: 17em;
+        margin: 1em;
+    }
 
+    
 }
 
 @media only screen and (min-width : 300px) and (max-width : 1000px) {
@@ -298,11 +313,18 @@ a {
         font-size: .7em;
     }
 
-    img {
+    .amina_img {
         width: 10.5em;
         height: 14.9em;
         margin-top: 14em;
         margin-left: -10.55em;
     }
 
+    .cssi_image{
+        width: 20em;
+        height: 15em;
+        margin: 1em;
+    }
+
+    
 }
